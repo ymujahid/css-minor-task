@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  /* background: #71ccf3; */
+  height: 100%;
+}
+
+.bg-top {
+  width: 50%;
+  float: left;
+  right: 1000px;
+  bottom: 50px;
+}
+
+.bg-bottom {
+  width: 50%;
+  float: right;
+}
+
+.bg-img-top {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+}
+
+.bg-img-bottom {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+}
+
+.container {
+  background-image: url(../images/bg-pattern-card.svg);
+  background-size: 100px;
+  background-repeat: none;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+  border: 4px red solid;
+  border-radius: 10px;
+  overflow: visible;
+}
+
+.card-img {
+}
+
+.profile-picture {
+  /* display: block; */
+  border-radius: 50px;
+  border: 2px white solid;
+  
+}
+
+/* Footer */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
