@@ -3,36 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  
+  <!-- favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   
   <title>Frontend Mentor | Profile card component</title>
 
+  <!-- Kumbh Sans font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 <body>
-  <!-- <div class="bg-top"><img class="bg-img-top" src="images/bg-pattern-top.svg"></div>
-  <div class="bg-bottom"><img class="bg-img-bottom" src="images/bg-pattern-bottom.svg"></div> -->
+  <img class="bg-img-top" src="images/bg-pattern-bottom.svg">
+  <div class="side-crop"><img src="images/bg-pattern-top.svg"></div>
+  
 
   <div class="container">
-    <!-- <img class="card-img" src="images/bg-pattern-card.svg" alt="bobbles"> -->
+    <div class="bg-card-img"><img src="images/bg-pattern-card.svg" alt="bobbles"></div>
     <img class="profile-picture" src="images/image-victor.jpg" alt="Image of Victor">
-    <p class="name">Victor Crest</p>
-    <p class="age">26</p>
+    <div class="victor-details">
+      <p class="name">Victor Crest</p>
+      <p class="age">26</p>
+    </div>
     <p class="location">London</p>
-    <p class="folowers-count">80K</p>
-    <p class="followers">Followers</p>
-    <p class="likes-count">803K</p>
-    <p class="likes">Likes</p>
-    <p class="photos-count">1.4K</p>
-    <p class="photos">Photos</p>
+    <hr class="light-line">
+    <div class="flex-box">
+      <div class="item">
+        <p class="count">80K</p>
+        <p>Followers</p>
+      </div>
+      <div class="item">
+        <p class="count">803K</p>
+        <p>Likes</p>
+      </div>
+      <div class="item">
+        <p class="count">1.4K</p>
+        <p>Photos</p>
+      </div>
+    </div>
   </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="github.com/ymujahid">&copy;Mujahid Yunus</a>.
   </div>
 </body>
 </html>
